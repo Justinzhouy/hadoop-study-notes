@@ -35,8 +35,9 @@ public class FileSystemCat {
 	
 	//	String uri = "hdfs://master.hadoop:9999/filesystem";
 	//	FileSystemCat.delete(uri);
-	
-	//	String uri = "hdfs://master.hadoop:9999/input/file01";
+
+	    
+	    //	String uri = "hdfs://master.hadoop:9999/input/file01";
 	//	FileSystemCat.fileStatus(uri);
 		String uri = "/input";
 		FileSystemCat.listStatus(uri);
